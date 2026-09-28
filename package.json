@@ -10,16 +10,21 @@
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
-    "autoprefixer": "latest",
-    "class-variance-authority": "latest",
-    "clsx": "latest",
+    "autoprefixer": "^10.4.21",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "lucide-react": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "tailwind-merge": "latest",
-    "tailwindcss-animate": "latest",
-    "tailwindcss": "latest",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss-animate": "^1.0.7",
+    "tailwindcss": "^3.4.17",
     "typescript": "latest",
     "vite": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
   }
 }
