@@ -1,46 +1,40 @@
-# Anderson — Site de Venda de Serviços
+# Anderson — Landing Page de Serviços
 
-Base de uma landing page preparada para desenvolvimento com **React + TypeScript + Vite + Tailwind CSS**, em uma estrutura adequada para evolução no Lovable/GitHub.
+Landing page responsiva para apresentação e venda de serviços digitais, construída com React, TypeScript e Vite e organizada para fluxo GitHub + Lovable.
 
 ## Stack
 
-- React
-- TypeScript
+- React + TypeScript
 - Vite
-- Tailwind CSS
+- Tailwind CSS / estrutura compatível com Lovable
 - Lucide React
-- shadcn/ui-compatible configuration
+- CSS responsivo com foco em performance e conversão
+
+## Seções
+
+- Hero com chamadas para ação
+- Serviços
+- Benefícios
+- Processo de trabalho
+- Depoimento
+- FAQ interativo
+- CTA de contato
+- Footer
 
 ## Estrutura
 
 ```text
-anderson/
-├── public/
-│   ├── images/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── ui/
-│   ├── hooks/
-│   ├── lib/
-│   │   └── utils.ts
-│   ├── sections/
-│   ├── styles/
-│   │   └── main.css
-│   ├── App.tsx
-│   ├── index.css
-│   └── main.tsx
-├── .gitignore
-├── components.json
-├── index.html
-├── package.json
-├── postcss.config.js
-├── tailwind.config.ts
-├── tsconfig.json
-├── tsconfig.app.json
-├── tsconfig.node.json
-├── vite.config.ts
-└── README.md
+src/
+├── components/
+│   └── ui/
+├── hooks/
+├── lib/
+├── sections/
+├── styles/
+│   └── main.css
+├── App.tsx
+├── index.css
+└── main.tsx
 ```
 
 ## Desenvolvimento local
@@ -57,18 +51,10 @@ npm run build
 npm run preview
 ```
 
-## Objetivo
+## Personalização antes da publicação
 
-Criar uma página profissional, responsiva e orientada à conversão, com destaque para serviços, benefícios, prova social, perguntas frequentes e contato via WhatsApp.
-
-## Integração com Lovable
-
-O repositório está organizado para trabalhar com um fluxo GitHub + Lovable, mantendo o código-fonte na branch `main` e uma base React/Vite editável.
-
-## Próximos passos
-
-- Definir identidade visual e marca.
-- Construir as seções da landing page.
-- Substituir o número de WhatsApp de exemplo.
-- Adicionar prova social, FAQ e chamadas para ação.
-- Configurar SEO, analytics e domínio.
+1. Substituir `contato@seusite.com` pelo e-mail real.
+2. Configurar o número/link real do WhatsApp.
+3. Trocar depoimento, nome e textos de exemplo pelos dados reais do negócio.
+4. Ajustar identidade visual, serviços e informações de contato.
+5. Configurar domínio, hospedagem e analytics.
